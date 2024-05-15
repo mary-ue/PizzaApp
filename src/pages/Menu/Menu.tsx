@@ -1,9 +1,14 @@
 import { Headling } from '../../components/Headling/Headling';
+import Search from '../../components/Search/SearchInput';
+import styles from './Menu.module.css';
 
 export const Menu = () => {
   return (
     <>
-      <Headling>Меню</Headling>
+      <div className={styles.head}>
+        <Headling>Меню</Headling>
+        <Search placeholder='Введите блюдо или состав' />
+      </div>
     </>
   );
 };
