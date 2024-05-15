@@ -1,7 +1,9 @@
+import { Headling } from '../../components/Headling/Headling';
+
 export const Menu = () => {
   return (
     <>
-      Menu
+      <Headling>Меню</Headling>
     </>
   );
 };
