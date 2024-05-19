@@ -70,3 +70,15 @@
   padding: 40px 60px;
   width: 100%;
 }
+
+.cart-count {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 20px;
+	min-height: 20px;
+	font-size: 12px;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	border-radius: 50%;
+}
